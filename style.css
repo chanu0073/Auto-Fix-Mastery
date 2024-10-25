@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea; /* Light grey for a clean background */
+    color: #333;
+}
+
+header {
+    background: #343a40; /* Dark grey for a sleek look */
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px; /* Slight letter spacing for a modern look */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: #ffc107; /* Yellow accent color for links */
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+    color: #ffcc00; /* Slightly brighter yellow on hover */
+}
+
+#hero {
+    background: url('your-hero-image-url.jpg') no-repeat center center/cover; /* Hero image related to automotive */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    position: relative;
+}
+
+#hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text readability */
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: #ffc107; /* Yellow for the call to action button */
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s; /* Smooth transition */
+}
+
+.cta-button:hover {
+    background: #ffcc00; /* Brighter yellow on hover */
+}
+
+#features {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    border-radius: 8px; /* Rounded corners for a softer look */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.feature {
+    margin: 20px 0;
+}
+
+.feature h3 {
+    color: #343a40; /* Dark grey for feature headings */
+}
+
+footer {
+    background: #343a40; /* Dark grey for footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ffc107; /* Yellow accent for footer links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffcc00; /* Brighter yellow on hover */
+}
